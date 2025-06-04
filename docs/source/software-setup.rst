@@ -16,35 +16,38 @@ You will see something similar to the screenshot below.
   :width: 800
   :alt: Anaconda download page
 
-Download the installer that matches your operating system.
+Under the "Distribution Installers" on the left of the page, download the installer that matches your operating system.
 
 **Mac users**: For most people the Graphical Installer (rather than Command Line Installer) might be the easier option.
 
 Install
 -------
 
-For Windows
+Double-click the downloaded file to start the installation. 
+Use all of the defaults for installation.
 
-- Double-click the downloaded file to start the installation. 
-- Use all of the defaults for installation except make sure to check *Make Anaconda the default Python*.
+.. For Windows
 
-For MacOS
+.. - Double-click the downloaded file to start the installation. 
+.. - Use all of the defaults for installation except make sure to check *Make Anaconda the default Python*.
 
-- Double-click the downloaded file to start the installation. 
-- Use all of the defaults for installation except make sure to check *Make Anaconda the default Python*.
+.. For MacOS
 
-For Linux
+.. - Double-click the downloaded file to start the installation. 
+.. - Use all of the defaults for installation except make sure to check *Make Anaconda the default Python*.
 
-- Open a terminal window.
-- Type ``bash Anaconda-`` and then press tab. The name of the file you just downloaded should appear. Press **Enter**.
-- You will follow the text-only prompts. When there is a colon at the bottom of the screen, press the down arrow to move down through the text. 
-- Type ``yes`` and press **Enter** to approve the license. 
-- Press **Enter** to approve the default location for the files. 
-- Type ``yes`` and press **Enter** to add Anaconda to your PATH (this makes Anaconda the default Python).
+.. For Linux
+
+.. - Open a terminal window.
+.. - Type ``bash Anaconda-`` and then press tab. The name of the file you just downloaded should appear. Press **Enter**.
+.. - You will follow the text-only prompts. When there is a colon at the bottom of the screen, press the down arrow to move down through the text. 
+.. - Type ``yes`` and press **Enter** to approve the license. 
+.. - Press **Enter** to approve the default location for the files. 
+.. - Type ``yes`` and press **Enter** to add Anaconda to your PATH (this makes Anaconda the default Python).
 
 
 
-.. .. tabs::
+.. tabs::
 
 ..    .. group-tab:: Windows
 
@@ -114,15 +117,15 @@ Secondly, in the CLI type in the following and press **Enter** or **return**.
 
 .. code:: bash
 
-    jupyter lab
+    jupyter-lab
 
 JupyterLab will open automatically in your browser.
 
-.. image:: images/jupyterlab.gif
-  :width: 800
-  :alt: Create Jupyter notebook
+.. .. image:: images/jupyterlab.gif
+..   :width: 800
+..   :alt: Create Jupyter notebook
 
-Now you should see the Jupter Lab dashboard in your browser (see above). 
+Now you should see the Jupter Lab dashboard in your browser. 
 You can use the file browser (in the left sidebar Files tab) to navigate the directory to a desired folder, 
 and then create a new notebook file for Python by clicking the **Python 3** button under **Notebook**.
 
