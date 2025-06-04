@@ -47,8 +47,6 @@ Use all of the defaults for installation.
 
 
 
-.. tabs::
-
 ..    .. group-tab:: Windows
 
 ..       - Double-click the downloaded file to start the installation. 
